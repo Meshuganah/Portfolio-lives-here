@@ -57,11 +57,11 @@ header nav ul li a {
 /* End header styling */
 
 /* About me styling */
-.about-me {
+#about-me {
     background-color: var(--secondary-background);
 }
 
-.about-me article p {
+#about-me article p {
     color: var(--font);
     font-size: medium;
     line-height: 1.3;
@@ -69,21 +69,57 @@ header nav ul li a {
 
 .flex-pic {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .profile {
     max-width: 400px;
     max-height: 500px;
     border-radius: 15px;
+    margin: 0 auto 0 auto;
 }
 
 /* End about me styling */
 
 /* Work styling */
 
+#work {
+    background-color: var(--main-background);
+}
+
+.sub-header {
+    color: var(--header-color);
+    border-bottom: var(--underline) 2px solid;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto 15px auto;
+    font-size: 30px;
+}
+
+.flex-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.first-project {
+    max-width: 500px;
+    max-height: 300px;
+}
+
 /* End work styling */
 
 /* Contact me/footer stying */
+
+#contact-me {
+    background-color: var(--secondary-background);
+}
+
+#contact-me div {
+    color: var(--font);
+    text-align: center;
+}
 
 /* End contact me/footer styling */
