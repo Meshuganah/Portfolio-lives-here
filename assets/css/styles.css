@@ -17,6 +17,15 @@
     --font: #F2F2F2;
 }
 
+.section-header {
+    color: var(--header-color);
+    border-bottom: var(--underline) 3px solid;
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+
 /* Header Styling */
 header {
     background-color: var(--main-background);
@@ -46,3 +55,35 @@ header nav ul li a {
 }
 
 /* End header styling */
+
+/* About me styling */
+.about-me {
+    background-color: var(--secondary-background);
+}
+
+.about-me article p {
+    color: var(--font);
+    font-size: medium;
+    line-height: 1.3;
+}
+
+.flex-pic {
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile {
+    max-width: 400px;
+    max-height: 500px;
+    border-radius: 15px;
+}
+
+/* End about me styling */
+
+/* Work styling */
+
+/* End work styling */
+
+/* Contact me/footer stying */
+
+/* End contact me/footer styling */
