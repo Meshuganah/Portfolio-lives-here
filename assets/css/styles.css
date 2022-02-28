@@ -113,9 +113,11 @@ header nav ul li a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
-
 } 
+
+.flex-work a {
+    margin: 0 auto 0 auto;
+}
 
 .first-project {
     max-width: 500px;
