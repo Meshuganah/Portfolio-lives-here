@@ -152,3 +152,32 @@ header nav ul li a {
 }
 
 /* End contact me/footer styling */
+
+@media screen and (max-width: 768px) {
+    .flex-duo{
+        flex-direction: column;
+    }
+
+    .flex-duo p {
+        font-size: 15px;
+        margin: 0 20px 10px 20px;
+    }
+
+    .first-project {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #about-me article p {
+        color: black;
+    }
+
+    .first-project {
+        max-width: 175px;
+    }
+
+    .placeholder {
+        max-width: 175px;
+    }
+}
