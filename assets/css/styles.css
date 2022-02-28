@@ -17,6 +17,11 @@
     --font: #F2F2F2;
 }
 
+body {
+    background-image: url("../images/mountain-top.jpg") ;
+    background-size: cover;
+}
+
 .section-header {
     color: var(--header-color);
     border-bottom: var(--underline) 3px solid;
@@ -28,7 +33,7 @@
 
 /* Header Styling */
 header {
-    background-color: var(--main-background);
+   /* background-color: var(--main-background); */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -58,7 +63,7 @@ header nav ul li a {
 
 /* About me styling */
 #about-me {
-    background-color: var(--secondary-background);
+   /* background-color: var(--secondary-background); */
 }
 
 #about-me article p {
@@ -84,7 +89,10 @@ header nav ul li a {
 /* Work styling */
 
 #work {
-    background-color: var(--main-background);
+    background-color: var(--underline);
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto 0 auto;
 }
 
 .sub-header {
@@ -107,6 +115,13 @@ header nav ul li a {
 .first-project {
     max-width: 500px;
     max-height: 300px;
+    margin: 20px auto 20px auto;
+}
+
+.future {
+    background-color: var(--header-color);
+    border-radius: 15px;
+    margin: 0 auto 0 auto;
 }
 
 /* End work styling */
@@ -114,7 +129,7 @@ header nav ul li a {
 /* Contact me/footer stying */
 
 #contact-me {
-    background-color: var(--secondary-background);
+  /*  background-color: var(--secondary-background); */
 }
 
 #contact-me div {
